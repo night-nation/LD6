@@ -6,9 +6,9 @@ Y = zeros(size(X));
 y_neigiama;   % x < 0
 y_teigiama;   % x >= 0
 
-plot(X, Y, 'k-.+');
-set(gca, 'Color', 'w');  
+plot(X, Y, 'k-.+'); 
 grid on; xlabel('x'); ylabel('y(x)');
+set(gca, 'Color', 'w', 'GridColor', 'k', 'GridAlpha', 0.3);
 title('y(x) = -sin(x), x<0;  sin(x), x>=0');
 
 disp('Globalus kintamieji (whos):');
